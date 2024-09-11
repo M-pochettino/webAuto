@@ -1,0 +1,1143 @@
+INFO - 2024-08-17 14:44:49,449 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 14:44:54,328 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 14:44:54,355 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 14:44:54,393 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 14:44:54,402 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 14:44:54,430 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 14:44:57,472 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 14:44:57,501 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：72
+INFO - 2024-08-17 14:44:57,508 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 14:44:57,518 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 14:44:57,715 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 14:44:58,311 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 14:45:00,325 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 14:45:00,354 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 14:45:02,365 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 14:45:02,383 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 14:45:05,404 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 14:45:05,441 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 14:45:08,446 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 14:45:10,615 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 14:45:10,623 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:17:27,372 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:17:29,957 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:17:30,045 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:17:30,108 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:17:30,119 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:17:30,142 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:17:33,230 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:17:33,262 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：14
+INFO - 2024-08-17 15:17:33,270 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:17:33,278 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:17:33,469 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:17:34,037 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:17:36,059 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:17:36,088 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:17:38,100 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 15:17:38,120 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 15:17:41,134 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 15:17:41,156 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:17:44,164 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:17:46,386 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 15:17:46,387 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:18:26,697 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:18:29,227 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:18:29,320 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:18:29,376 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:18:29,392 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:18:29,418 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:18:32,453 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:18:32,482 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：14
+INFO - 2024-08-17 15:18:32,490 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:18:32,499 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:18:32,692 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:18:33,288 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:18:35,313 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:18:35,342 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:18:37,355 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 15:18:37,374 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 15:18:40,396 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 15:18:40,418 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:18:40,835 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:18:42,993 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 15:18:42,993 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:23:29,198 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:23:31,767 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:23:31,812 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:23:31,863 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:23:31,872 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:23:31,903 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:23:34,939 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:23:34,966 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 15:23:34,973 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:23:34,982 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:23:35,172 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:23:35,783 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:23:37,807 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:23:37,834 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:23:39,851 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 15:23:39,870 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 15:23:42,886 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 15:23:42,897 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:23:43,228 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:23:45,409 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 15:23:45,410 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:31:06,654 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:31:09,203 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:31:09,279 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:31:09,340 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:31:09,350 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:31:09,374 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:31:12,411 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:31:12,442 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：14
+INFO - 2024-08-17 15:31:12,450 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:31:12,458 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:31:12,641 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:31:13,219 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:31:15,232 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:31:15,270 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:31:17,292 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:31:17,337 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:31:19,349 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:31:19,355 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:31:25,372 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:31:25,375 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:31:25,420 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:31:27,438 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:31:27,469 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:31:29,492 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 15:31:29,512 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 15:31:32,526 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 15:31:32,548 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:31:35,553 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:31:37,716 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 15:31:37,719 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:32:43,211 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:32:45,738 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:32:45,799 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:32:45,852 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:32:45,860 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:32:45,889 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:32:48,919 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:32:48,948 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：1
+INFO - 2024-08-17 15:32:48,956 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:32:48,967 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:32:49,159 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:32:49,749 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:32:51,769 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:32:51,807 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:32:53,819 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:32:53,836 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+ERROR - 2024-08-17 15:33:06,497 - basePage.py:167 -[basePage:location_element] - 未找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:33:21,905 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:33:24,441 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:33:24,526 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:33:24,587 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:33:24,598 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:33:24,625 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:33:27,657 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:33:27,685 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：1
+INFO - 2024-08-17 15:33:27,692 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:33:27,701 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:33:27,889 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:33:28,502 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:33:30,517 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:33:30,555 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:33:32,577 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:33:32,600 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:33:34,625 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:33:34,632 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:33:46,984 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:33:49,619 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:33:49,642 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:33:49,684 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:33:49,703 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:33:49,730 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:33:52,774 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:33:52,804 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：18
+INFO - 2024-08-17 15:33:52,812 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:33:52,821 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:33:53,006 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:34:00,313 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:34:02,333 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:34:02,372 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:34:04,395 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:34:04,413 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:34:06,425 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:34:06,431 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:35:00,755 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:35:03,318 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:35:03,369 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:35:03,418 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:35:03,428 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:35:03,456 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:35:06,497 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:35:06,528 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 15:35:06,536 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:35:06,547 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:35:06,739 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:35:07,354 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:35:09,372 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:35:09,409 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:35:11,422 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:35:11,439 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:35:19,083 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:35:19,089 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:36:00,058 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:36:02,605 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:36:02,667 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:36:02,717 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:36:02,726 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:36:02,765 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:36:05,810 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:36:05,840 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：6
+INFO - 2024-08-17 15:36:05,848 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:36:05,859 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:36:06,056 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:36:06,641 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:36:41,377 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:36:41,419 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:36:48,096 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:36:48,120 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:37:03,754 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:37:03,764 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:46:16,893 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:46:21,874 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:46:21,899 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:46:21,939 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:46:21,948 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:46:21,976 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:46:25,005 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:46:25,033 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 15:46:25,040 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:46:25,050 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:46:25,244 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:46:25,827 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:46:27,847 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 15:46:27,879 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 15:46:29,902 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 15:46:29,911 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+ERROR - 2024-08-17 15:46:46,472 - basePage.py:167 -[basePage:location_element] - 未找到元素：css selector = div.el-message.el-message--success p.el-message__content
+INFO - 2024-08-17 15:46:46,813 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:46:46,816 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:46:46,846 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:46:48,856 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:46:48,881 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:46:50,691 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:48:54,929 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:48:57,520 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:48:57,584 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:48:57,632 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:48:57,640 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:48:57,667 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:49:00,704 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:49:00,733 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：18
+INFO - 2024-08-17 15:49:00,741 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:49:00,750 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:49:00,965 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:49:01,567 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:49:03,592 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 15:49:03,623 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 15:49:05,643 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 15:49:05,652 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 15:53:22,113 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:53:24,612 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:53:24,710 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:53:24,761 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:53:24,770 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:53:24,798 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:53:27,865 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:53:27,912 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 15:53:27,923 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:53:27,939 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:53:28,260 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:53:28,868 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:53:30,880 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 15:53:30,913 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 15:53:32,937 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 15:53:32,946 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 15:54:17,601 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:54:20,082 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:54:20,139 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:54:20,192 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:54:20,201 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:54:20,237 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:54:23,276 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:54:23,304 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：24
+INFO - 2024-08-17 15:54:23,311 - basePage.py:164 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:54:23,321 - basePage.py:214 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:54:23,527 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:54:24,137 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:54:26,162 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 15:54:26,194 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 15:54:28,206 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 15:54:28,214 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 15:54:31,249 - basePage.py:534 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 15:54:31,259 - basePage.py:517 -[basePage:assert_element_text] - 断言结果：元素文本内容与预期一致，文本内容为：删除成功
+INFO - 2024-08-17 15:54:31,260 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:54:31,262 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:54:31,288 - basePage.py:75 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:54:33,305 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 15:54:33,333 - basePage.py:242 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 15:54:35,346 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 15:54:35,353 - basePage.py:214 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 15:54:38,369 - basePage.py:164 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 15:54:38,391 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:54:38,725 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:54:40,882 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 15:54:40,886 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 15:58:56,548 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 15:58:59,049 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 15:58:59,145 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 15:58:59,204 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 15:58:59,212 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 15:58:59,240 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 15:59:02,271 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 15:59:02,300 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：5
+INFO - 2024-08-17 15:59:02,308 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 15:59:02,317 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 15:59:02,503 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:59:03,116 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:59:05,142 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 15:59:05,174 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 15:59:07,183 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 15:59:07,200 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 15:59:09,222 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 15:59:09,228 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 15:59:12,253 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 15:59:12,262 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 15:59:15,264 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:59:15,266 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:59:15,293 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:59:17,314 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 15:59:17,410 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 15:59:19,525 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:19,557 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：jieshiharry
+INFO - 2024-08-17 15:59:19,566 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:19,596 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 15:59:19,605 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:19,631 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：王瑞
+INFO - 2024-08-17 15:59:19,641 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:19,672 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：18279212172
+INFO - 2024-08-17 15:59:19,681 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:19,696 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:21,717 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 15:59:21,728 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 15:59:21,729 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 15:59:21,736 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:21,753 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:23,780 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 15:59:23,790 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 15:59:23,791 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 15:59:23,800 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:23,817 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:25,836 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 15:59:25,851 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 15:59:27,874 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 15:59:27,883 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 15:59:29,916 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 15:59:29,932 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 15:59:33,967 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:34,047 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：min26@example.org
+INFO - 2024-08-17 15:59:34,055 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:34,082 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 15:59:34,092 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 15:59:34,096 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 15:59:34,103 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 15:59:34,110 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 15:59:40,136 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 15:59:40,139 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 15:59:40,252 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 15:59:42,274 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 15:59:42,325 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 15:59:42,336 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:42,358 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 15:59:42,388 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 15:59:42,396 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:42,412 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 15:59:42,442 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：韩兵
+INFO - 2024-08-17 15:59:42,983 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 15:59:43,001 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 15:59:43,038 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：15143531308
+INFO - 2024-08-17 15:59:43,049 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:43,063 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:45,083 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 15:59:45,092 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 15:59:45,093 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 15:59:45,101 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:45,115 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:47,144 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 15:59:47,154 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 15:59:47,154 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 15:59:47,163 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 15:59:47,178 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 15:59:49,200 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 15:59:49,206 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 15:59:51,231 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 15:59:51,236 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 15:59:53,262 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 15:59:53,270 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 15:59:55,293 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 15:59:55,307 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 16:00:01,329 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:00:01,348 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:00:01,405 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：xiejun@example.org
+INFO - 2024-08-17 16:00:01,412 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:00:01,430 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:00:01,459 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 16:00:01,464 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 16:00:01,485 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 16:00:07,501 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:00:07,504 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:00:07,532 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:00:09,546 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 16:00:09,581 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 16:00:15,602 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:00:15,605 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:00:15,632 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:00:17,654 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 16:00:17,686 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 16:00:19,701 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 16:00:19,709 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 16:00:22,742 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:00:22,751 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 16:00:22,752 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:00:22,755 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:00:22,778 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:00:24,795 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 16:00:24,840 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 16:00:26,857 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 16:00:26,874 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 16:00:29,886 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 16:00:29,908 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 16:00:30,257 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:00:32,404 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 16:00:32,407 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 16:03:05,205 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 16:03:07,764 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 16:03:07,807 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 16:03:07,860 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 16:03:07,876 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 16:03:07,902 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 16:03:10,943 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 16:03:10,973 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 16:03:10,980 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 16:03:10,991 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 16:03:11,186 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:03:11,812 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:03:13,825 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 16:03:13,857 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 16:03:15,869 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 16:03:15,887 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 16:03:17,909 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 16:03:17,914 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 16:03:20,939 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:03:20,948 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 16:03:23,953 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:03:23,956 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:03:23,984 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:03:26,003 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 16:03:26,094 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 16:03:28,200 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:28,235 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：uduharry
+INFO - 2024-08-17 16:03:28,244 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:28,278 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 16:03:28,288 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:28,314 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：王军
+INFO - 2024-08-17 16:03:28,323 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:28,359 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：18793875215
+INFO - 2024-08-17 16:03:28,367 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:28,379 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:30,408 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 16:03:30,419 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 16:03:30,420 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 16:03:30,429 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:30,448 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:32,478 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 16:03:32,489 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 16:03:32,489 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 16:03:32,497 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:32,513 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:34,542 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 16:03:34,552 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:03:36,586 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:03:36,592 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:03:38,617 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 16:03:38,628 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 16:03:42,648 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:42,704 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：jing18@example.org
+INFO - 2024-08-17 16:03:42,713 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:42,741 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 16:03:42,749 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 16:03:42,755 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 16:03:42,762 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 16:03:42,766 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 16:03:45,794 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:03:45,803 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 16:03:48,816 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:03:48,819 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:03:48,929 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:03:50,944 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 16:03:50,997 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 16:03:51,010 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:51,030 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:03:51,061 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 16:03:51,071 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:51,086 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:03:51,111 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：李瑞
+INFO - 2024-08-17 16:03:51,639 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:03:51,655 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:03:51,688 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：13193601542
+INFO - 2024-08-17 16:03:51,697 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:51,709 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:53,733 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 16:03:53,742 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 16:03:53,743 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 16:03:53,751 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:53,765 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:55,787 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 16:03:55,798 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 16:03:55,798 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 16:03:55,810 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:03:55,836 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:03:57,864 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 16:03:57,873 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:03:59,890 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:03:59,896 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:04:01,925 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:04:01,934 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:04:03,959 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 16:04:03,973 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 16:04:10,010 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:04:10,029 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:04:10,086 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：cuiwei@example.org
+INFO - 2024-08-17 16:04:10,098 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:04:10,123 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:04:10,152 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 16:04:10,160 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 16:04:10,177 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 16:04:13,211 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:04:13,222 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：修改成功
+INFO - 2024-08-17 16:04:16,234 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:04:16,237 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:04:16,273 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:04:18,290 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 16:04:18,320 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 16:04:21,342 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:04:21,350 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：操作成功
+INFO - 2024-08-17 16:04:24,354 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:04:24,357 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:04:24,384 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:04:26,404 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 16:04:26,437 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 16:04:28,454 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 16:04:28,462 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 16:04:31,479 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:04:31,485 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 16:04:31,486 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:04:31,488 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:04:31,512 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:04:33,525 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 16:04:33,569 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 16:04:35,585 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 16:04:35,603 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 16:04:38,613 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 16:04:38,637 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 16:04:41,653 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:04:43,809 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 16:04:43,812 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 16:18:30,009 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 16:18:32,600 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 16:18:32,649 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 16:18:32,698 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 16:18:32,705 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 16:18:32,730 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 16:18:35,769 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 16:18:35,798 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：25
+INFO - 2024-08-17 16:18:35,805 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 16:18:35,815 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 16:18:36,007 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:18:36,595 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:18:38,611 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 16:18:38,658 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 16:18:40,669 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 16:18:40,686 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 16:18:42,708 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 16:18:42,713 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 16:18:45,738 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:18:45,748 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 16:18:48,757 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:18:48,760 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:18:48,788 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:18:50,806 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 16:18:50,896 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 16:18:53,016 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:18:53,059 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：chaojiaharry
+INFO - 2024-08-17 16:18:53,067 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:18:53,100 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 16:18:53,108 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:18:53,137 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：徐云
+INFO - 2024-08-17 16:18:53,145 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:18:53,182 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：13094369282
+INFO - 2024-08-17 16:18:53,190 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:18:53,206 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:18:55,218 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 16:18:55,230 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 16:18:55,231 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 16:18:55,240 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:18:55,256 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:18:57,281 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 16:18:57,292 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 16:18:57,292 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 16:18:57,302 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:18:57,328 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:18:59,344 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 16:18:59,356 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:19:01,385 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:19:01,394 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:19:03,414 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 16:19:03,427 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 16:19:07,441 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:07,501 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：cuina@example.net
+INFO - 2024-08-17 16:19:07,510 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:07,539 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 16:19:07,549 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 16:19:07,553 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 16:19:07,561 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 16:19:07,567 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 16:19:10,589 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:19:10,598 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 16:19:13,603 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:19:13,606 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:19:13,724 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:19:15,747 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 16:19:15,815 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 16:19:15,835 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:15,855 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:19:15,888 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 16:19:15,899 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:15,915 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:19:15,942 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：杨畅
+INFO - 2024-08-17 16:19:16,444 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:16,466 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:19:16,502 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：15996056851
+INFO - 2024-08-17 16:19:16,510 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:19:16,521 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:19:18,537 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 16:19:18,547 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 16:19:18,547 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 16:19:18,555 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:19:18,570 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:19:20,598 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 16:19:20,609 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 16:19:20,609 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 16:19:20,618 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 16:19:20,634 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 16:19:22,654 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 16:19:22,661 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:19:24,688 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:19:24,694 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:19:26,714 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 16:19:26,722 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 16:19:28,735 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 16:19:28,750 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 16:19:34,765 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:34,785 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:19:34,842 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：wei24@example.com
+INFO - 2024-08-17 16:19:34,850 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 16:19:34,866 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 16:19:34,897 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 16:19:34,905 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 16:19:34,922 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 16:19:37,945 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:19:37,950 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：修改成功
+INFO - 2024-08-17 16:19:40,962 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:19:40,965 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:19:40,998 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:19:43,018 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 16:19:43,053 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 16:19:46,073 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:19:46,079 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：操作成功
+INFO - 2024-08-17 16:19:49,083 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:19:49,086 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:19:49,116 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:19:51,129 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 16:19:51,177 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 16:19:53,194 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 16:19:53,202 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 16:19:56,219 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 16:19:56,225 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 16:19:56,225 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:19:56,228 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 16:19:56,252 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 16:19:58,264 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 16:19:58,306 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 16:20:00,317 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 16:20:00,336 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 16:20:03,345 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 16:20:03,354 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 16:20:06,367 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 16:20:08,551 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 16:20:08,554 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 17:26:21,264 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 17:26:27,763 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 17:26:27,784 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 17:26:27,818 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 17:26:27,827 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 17:26:27,863 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 17:26:30,894 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 17:26:30,925 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：5
+INFO - 2024-08-17 17:26:30,932 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 17:26:30,943 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 17:26:31,149 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:26:31,757 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:26:33,774 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 17:26:33,805 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 17:26:35,814 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 17:26:35,833 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 17:26:37,857 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 17:26:37,862 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 17:26:40,882 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:26:40,891 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 17:26:43,899 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:26:43,902 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:26:43,929 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:26:45,950 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 17:26:46,037 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 17:26:48,153 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:26:48,190 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：zpanharry
+INFO - 2024-08-17 17:26:48,198 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:26:48,230 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 17:26:48,240 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:26:48,268 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：高慧
+INFO - 2024-08-17 17:26:48,277 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:26:48,313 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：18130195612
+INFO - 2024-08-17 17:26:48,323 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:26:48,338 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:26:50,366 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 17:26:50,378 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 17:26:50,378 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 17:26:50,389 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:26:50,406 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:26:52,422 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 17:26:52,434 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 17:26:52,435 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 17:26:52,443 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:26:52,459 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:26:54,494 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 17:26:54,505 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:26:56,537 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 17:26:56,546 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:26:58,568 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 17:26:58,580 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 17:27:02,597 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:27:02,660 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：juan30@example.com
+INFO - 2024-08-17 17:27:02,670 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:27:02,697 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 17:27:02,706 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 17:27:02,709 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 17:27:02,719 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 17:27:02,724 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 17:27:05,938 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:27:05,948 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 17:27:08,950 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:27:08,953 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:27:09,067 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:37:44,489 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 17:37:47,048 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 17:37:47,098 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 17:37:47,141 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 17:37:47,162 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 17:37:47,185 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 17:37:50,223 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 17:37:50,254 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：14
+INFO - 2024-08-17 17:37:50,262 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 17:37:50,272 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 17:37:50,465 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:37:51,056 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:37:53,074 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 17:37:53,108 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 17:37:55,128 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 17:37:55,146 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 17:37:57,164 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 17:37:57,170 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+ERROR - 2024-08-17 17:38:10,745 - basePage.py:536 -[basePage:visibility_of_element_located] - 在设定时间内未找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:38:11,091 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:38:11,094 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:38:11,122 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:38:13,138 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 17:38:13,227 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 17:38:15,345 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:15,389 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：yuanjuanharry
+INFO - 2024-08-17 17:38:15,397 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:15,430 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 17:38:15,440 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:15,469 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：王文
+INFO - 2024-08-17 17:38:15,477 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:15,514 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：13591772807
+INFO - 2024-08-17 17:38:15,523 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:15,538 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:17,560 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 17:38:17,572 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 17:38:17,573 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 17:38:17,584 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:17,600 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:19,628 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 17:38:19,638 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 17:38:19,639 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 17:38:19,648 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:19,664 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:21,687 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 17:38:21,699 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:38:23,715 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 17:38:23,725 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:38:25,758 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 17:38:25,772 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 17:38:29,785 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:29,845 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：chaoxu@example.net
+INFO - 2024-08-17 17:38:29,855 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:29,883 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 17:38:29,892 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 17:38:29,896 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 17:38:29,905 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 17:38:29,910 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 17:38:33,128 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:38:33,137 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 17:38:36,145 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:38:36,148 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:38:36,259 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:38:38,275 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 17:38:38,335 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 17:38:38,359 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:38,381 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 17:38:38,415 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 17:38:38,424 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:38,440 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 17:38:38,471 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：张斌
+INFO - 2024-08-17 17:38:38,980 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:38,999 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 17:38:39,038 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：15906939113
+INFO - 2024-08-17 17:38:39,046 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:39,059 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:41,080 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 17:38:41,091 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 17:38:41,092 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 17:38:41,100 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:41,120 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:43,142 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 17:38:43,152 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 17:38:43,153 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 17:38:43,161 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 17:38:43,177 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 17:38:45,201 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 17:38:45,207 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:38:47,226 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 17:38:47,233 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:38:49,265 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 17:38:49,277 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 17:38:51,300 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 17:38:51,314 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 17:38:57,323 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:57,342 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 17:38:57,403 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：pinglei@example.com
+INFO - 2024-08-17 17:38:57,409 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 17:38:57,424 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 17:38:57,455 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 17:38:57,461 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 17:38:57,480 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 17:39:00,509 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:39:00,514 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：修改成功
+INFO - 2024-08-17 17:39:03,524 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:39:03,527 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:39:03,556 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:39:05,569 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 17:39:05,608 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 17:39:08,626 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:39:08,631 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：操作成功
+INFO - 2024-08-17 17:39:11,643 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:39:11,646 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:39:11,675 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:39:13,688 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 17:39:13,727 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 17:39:15,742 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 17:39:15,751 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 17:39:18,780 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 17:39:18,789 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 17:39:18,789 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:39:18,792 - conftest.py:12 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 17:39:18,818 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 17:39:20,839 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 17:39:20,882 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 17:39:22,905 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 17:39:22,923 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 17:39:25,940 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 17:39:25,964 - connectMysql.py:24 -[connectMysql:__init__] - 成功连接到数据库，数据ip：localhost
+INFO - 2024-08-17 17:39:28,975 - conftest.py:14 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 17:39:31,150 - conftest.py:16 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 17:39:31,153 - connectMysql.py:63 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 19:07:31,332 - connectMysql.py:29 -[connectMysql:__init__] - 成功连接到数据库，数据库IP：localhost
+INFO - 2024-08-17 19:07:36,688 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 19:07:36,705 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 19:07:36,745 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 19:07:36,755 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 19:07:36,783 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 19:07:37,818 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 19:07:37,848 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：0
+INFO - 2024-08-17 19:07:37,855 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 19:07:37,866 - basePage.py:213 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 19:07:38,077 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:07:38,685 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:07:39,707 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 19:07:39,740 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 19:07:40,749 - basePage.py:163 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 19:07:40,766 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 19:07:41,783 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 19:07:41,789 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 19:07:42,820 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 19:07:42,828 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 19:07:45,840 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:07:45,843 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:07:45,872 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:07:46,882 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 19:07:46,969 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 19:07:48,088 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:07:48,128 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：duanxiaharry
+INFO - 2024-08-17 19:07:48,136 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:07:48,169 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 19:07:48,178 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:07:48,206 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：陈莹
+INFO - 2024-08-17 19:07:48,215 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:07:48,251 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：18771037719
+INFO - 2024-08-17 19:07:48,260 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:07:48,272 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:07:50,299 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 19:07:50,310 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 19:07:50,311 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 19:07:50,320 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:07:50,337 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:07:52,356 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 19:07:52,366 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 19:07:52,367 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 19:07:52,376 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:07:52,392 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:07:54,410 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 19:07:54,422 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 19:07:56,444 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 19:07:56,457 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 19:07:58,484 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 19:07:58,497 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 19:08:00,515 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:00,585 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：wangwei@example.net
+INFO - 2024-08-17 19:08:00,594 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:00,624 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nick
+INFO - 2024-08-17 19:08:00,633 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 19:08:00,637 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 19:08:00,647 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 19:08:00,653 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 19:08:01,953 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 19:08:01,959 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 19:08:04,961 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:08:04,964 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:08:05,073 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:08:06,085 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 19:08:06,136 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 19:08:06,148 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:06,168 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 19:08:06,217 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 19:08:06,228 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:06,244 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 19:08:06,273 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：赵桂英
+INFO - 2024-08-17 19:08:06,779 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:06,795 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 19:08:06,832 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：18131940772
+INFO - 2024-08-17 19:08:06,841 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:08:06,851 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:08:08,871 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 19:08:08,882 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 19:08:08,883 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 19:08:08,892 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:08:08,905 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:08:10,931 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 19:08:10,942 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 19:08:10,943 - basePage.py:279 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 19:08:10,951 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 19:08:10,966 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 19:08:12,997 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 19:08:13,004 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 19:08:15,023 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 19:08:15,029 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 19:08:17,058 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 19:08:17,067 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 19:08:19,087 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 19:08:19,102 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 19:08:21,115 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:21,135 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 19:08:21,194 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：jiejiang@example.net
+INFO - 2024-08-17 19:08:21,203 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 19:08:21,218 - basePage.py:239 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 19:08:21,257 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 19:08:21,274 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 19:08:21,291 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 19:08:22,500 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 19:08:22,510 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：修改成功
+INFO - 2024-08-17 19:08:25,521 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:08:25,524 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:08:25,555 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:08:26,579 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 19:08:26,612 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 19:08:27,640 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 19:08:27,646 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：操作成功
+INFO - 2024-08-17 19:08:30,649 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:08:30,652 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:08:30,680 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:08:31,693 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 19:08:31,722 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 19:08:32,733 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 19:08:32,741 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 19:08:33,955 - basePage.py:533 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 19:08:33,961 - basePage.py:516 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 19:08:36,961 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:08:36,963 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 19:08:36,990 - basePage.py:74 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 19:08:38,006 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 19:08:38,055 - basePage.py:241 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 19:08:39,075 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 19:08:39,093 - basePage.py:213 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 19:08:40,113 - basePage.py:163 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 19:08:40,121 - connectMysql.py:29 -[connectMysql:__init__] - 成功连接到数据库，数据库IP：localhost
+INFO - 2024-08-17 19:08:43,136 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 19:08:45,298 - conftest.py:22 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 19:08:45,301 - connectMysql.py:81 -[connectMysql:delete] - 数据库数据删除成功
+INFO - 2024-08-17 21:59:07,057 - connectMysql.py:29 -[connectMysql:__init__] - 成功连接到数据库，数据库IP：localhost
+INFO - 2024-08-17 21:59:13,447 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888/auth_login
+INFO - 2024-08-17 21:59:13,495 - basePage.py:185 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="text"]
+INFO - 2024-08-17 21:59:13,536 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="text"]')，输入的内容为：
+INFO - 2024-08-17 21:59:13,547 - basePage.py:185 -[basePage:location_element] - 找到元素：css selector = .el-form-item__content .el-input__inner[type="password"]
+INFO - 2024-08-17 21:59:13,577 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-form-item__content .el-input__inner[type="password"]')，输入的内容为：
+INFO - 2024-08-17 21:59:14,619 - basePage.py:185 -[basePage:location_element] - 找到元素：css selector = .el-input__inner[placeholder="请输入验证码"]
+INFO - 2024-08-17 21:59:14,648 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('css selector', '.el-input__inner[placeholder="请输入验证码"]')，输入的内容为：9
+INFO - 2024-08-17 21:59:14,656 - basePage.py:185 -[basePage:location_element] - 找到元素：css selector = .el-button.login-content-submit
+INFO - 2024-08-17 21:59:14,664 - basePage.py:235 -[basePage:click] - 元素被点击：('css selector', '.el-button.login-content-submit')
+INFO - 2024-08-17 21:59:14,861 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 21:59:15,475 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 21:59:16,489 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')][contains(span, '导入')]
+INFO - 2024-08-17 21:59:16,524 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')][contains(span, '导入')]")
+INFO - 2024-08-17 21:59:17,538 - basePage.py:185 -[basePage:location_element] - 找到元素：css selector = input.el-upload__input
+INFO - 2024-08-17 21:59:17,557 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('css selector', 'input.el-upload__input')，输入的内容为：E:\temp.xlsx
+INFO - 2024-08-17 21:59:18,573 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[span[text()='确认']]
+INFO - 2024-08-17 21:59:18,578 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[span[text()='确认']]")
+INFO - 2024-08-17 21:59:19,609 - basePage.py:595 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 21:59:19,618 - basePage.py:575 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：用户导入成功，默认密码为手机号
+INFO - 2024-08-17 21:59:22,632 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 21:59:22,635 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 21:59:22,663 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 21:59:23,688 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]
+INFO - 2024-08-17 21:59:23,776 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[@aria-disabled='false' and contains(@class, 'el-button--primary') and span[text()='新 增']]")
+INFO - 2024-08-17 21:59:24,879 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:24,918 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="用户名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：xialeiharry
+INFO - 2024-08-17 21:59:24,926 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:24,958 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 21:59:24,968 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:24,996 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：耿红霞
+INFO - 2024-08-17 21:59:25,007 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:25,043 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：15525559290
+INFO - 2024-08-17 21:59:25,052 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:25,064 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:27,089 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 21:59:27,100 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 21:59:27,101 - basePage.py:302 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 21:59:27,117 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:27,143 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:29,166 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 21:59:29,177 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 21:59:29,177 - basePage.py:302 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 21:59:29,186 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:29,203 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:31,217 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 21:59:31,229 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 21:59:33,259 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 21:59:33,270 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 21:59:35,297 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="产品部"]]
+INFO - 2024-08-17 21:59:35,311 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="产品部"]]')
+INFO - 2024-08-17 21:59:37,345 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:37,416 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：xiuying64@example.org
+INFO - 2024-08-17 21:59:37,430 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:37,463 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nick
+INFO - 2024-08-17 21:59:37,472 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']
+INFO - 2024-08-17 21:59:37,476 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//label[contains(@class, 'el-radio') and contains(span[@class='el-radio__label'], '禁用')]/span[@class='el-radio__input']/input[@type='radio']")
+INFO - 2024-08-17 21:59:37,485 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 21:59:37,489 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 21:59:38,763 - basePage.py:595 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 21:59:38,769 - basePage.py:575 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：添加成功
+INFO - 2024-08-17 21:59:41,782 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 21:59:41,785 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 21:59:41,892 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 21:59:42,917 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[normalize-space(span)='修 改'][1]
+INFO - 2024-08-17 21:59:42,968 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[normalize-space(span)='修 改'][1]")
+INFO - 2024-08-17 21:59:42,979 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:43,002 - basePage.py:261 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 21:59:43,050 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="密码"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：123456
+INFO - 2024-08-17 21:59:43,059 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:43,075 - basePage.py:261 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 21:59:43,106 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="姓名"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：孙雪梅
+INFO - 2024-08-17 21:59:43,613 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:43,634 - basePage.py:261 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 21:59:43,671 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//form[@class="el-form el-form--default el-form--label-right"]//label[text()="手机号"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：13365164223
+INFO - 2024-08-17 21:59:43,682 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:43,692 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="角色"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:45,704 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]
+INFO - 2024-08-17 21:59:45,714 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '产品经理')]")
+INFO - 2024-08-17 21:59:45,714 - basePage.py:302 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"产品经理"的选项
+INFO - 2024-08-17 21:59:45,721 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:45,734 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="岗位"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:47,749 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]
+INFO - 2024-08-17 21:59:47,759 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-select-dropdown')]//ul/li//*[contains(text(), '总监')]")
+INFO - 2024-08-17 21:59:47,760 - basePage.py:302 -[basePage:selects_by_single_level] - 成功选择下拉菜单中名称为"总监"的选项
+INFO - 2024-08-17 21:59:47,766 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]
+INFO - 2024-08-17 21:59:47,781 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//label[text()="部门"]/following-sibling::div//div[@class="el-select__suffix"]/i[@class="el-icon el-select__caret el-select__icon"]')
+INFO - 2024-08-17 21:59:49,804 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="总裁办"]]/preceding-sibling::i
+INFO - 2024-08-17 21:59:49,810 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="总裁办"]]/preceding-sibling::i')
+INFO - 2024-08-17 21:59:51,836 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="技术部"]]/preceding-sibling::i
+INFO - 2024-08-17 21:59:51,842 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="技术部"]]/preceding-sibling::i')
+INFO - 2024-08-17 21:59:53,860 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="研发部"]]/preceding-sibling::i
+INFO - 2024-08-17 21:59:53,868 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="研发部"]]/preceding-sibling::i')
+INFO - 2024-08-17 21:59:55,889 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //li[span[text()="UI设计部"]]
+INFO - 2024-08-17 21:59:55,904 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//li[span[text()="UI设计部"]]')
+INFO - 2024-08-17 21:59:57,928 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:57,948 - basePage.py:261 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 21:59:58,000 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="邮箱"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：li95@example.net
+INFO - 2024-08-17 21:59:58,010 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]
+INFO - 2024-08-17 21:59:58,025 - basePage.py:261 -[basePage:send_keys] - 输入框内容已清空：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')
+INFO - 2024-08-17 21:59:58,055 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', '//label[text()="昵称"]/following-sibling::div//input[@class="el-input__inner"]')，输入的内容为：nic
+INFO - 2024-08-17 21:59:58,067 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button') and contains(., '确认')]
+INFO - 2024-08-17 21:59:58,087 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button') and contains(., '确认')]")
+INFO - 2024-08-17 21:59:59,283 - basePage.py:595 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 21:59:59,293 - basePage.py:575 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：修改成功
+INFO - 2024-08-17 22:00:02,306 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 22:00:02,309 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 22:00:02,339 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 22:00:03,353 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[@class="el-switch el-switch--default is-checked"]
+INFO - 2024-08-17 22:00:03,385 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', '//div[@class="el-switch el-switch--default is-checked"]')
+INFO - 2024-08-17 22:00:04,401 - basePage.py:595 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 22:00:04,407 - basePage.py:575 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：操作成功
+INFO - 2024-08-17 22:00:07,420 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 22:00:07,423 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 22:00:07,452 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 22:00:08,468 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]
+INFO - 2024-08-17 22:00:08,498 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[not(@disabled) and @aria-disabled='false'][span[text()='删除']][1]")
+INFO - 2024-08-17 22:00:09,518 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]
+INFO - 2024-08-17 22:00:09,525 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//div[contains(@class, 'el-overlay-message-box')]//button[contains(@class, 'el-button--primary') and span[text()='确认']]")
+INFO - 2024-08-17 22:00:10,732 - basePage.py:595 -[basePage:visibility_of_element_located] - 找到元素：xpath = //div[contains(@class, 'el-message--success')]//p[contains(@class, 'el-message__content')]
+INFO - 2024-08-17 22:00:10,738 - basePage.py:575 -[basePage:assert_element_text_contains] - 断言结果：元素文本内容包含预期文本，实际文本内容为：删除成功
+INFO - 2024-08-17 22:00:13,752 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 22:00:13,755 - conftest.py:14 -[conftest:log_outputs] - -------测试用例开始执行-------
+INFO - 2024-08-17 22:00:13,782 - basePage.py:83 -[basePage:open_url] - 打开页面：http://localhost:8888#/admin/system/user/index
+INFO - 2024-08-17 22:00:14,800 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']
+INFO - 2024-08-17 22:00:14,850 - basePage.py:263 -[basePage:send_keys] - 元素被输入内容：('xpath', "//div[contains(@class, 'el-input__wrapper')]//input[@placeholder='请输入用户名']")，输入的内容为：t
+INFO - 2024-08-17 22:00:15,868 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //button[contains(@class, 'el-button--primary')]//span[text()='查询']
+INFO - 2024-08-17 22:00:15,887 - basePage.py:235 -[basePage:click] - 元素被点击：('xpath', "//button[contains(@class, 'el-button--primary')]//span[text()='查询']")
+INFO - 2024-08-17 22:00:16,898 - basePage.py:185 -[basePage:location_element] - 找到元素：xpath = //span[contains(@class, "el-pagination__total") and contains(text(), "共")]
+INFO - 2024-08-17 22:00:16,906 - connectMysql.py:29 -[connectMysql:__init__] - 成功连接到数据库，数据库IP：localhost
+INFO - 2024-08-17 22:00:19,908 - conftest.py:17 -[conftest:log_outputs] - -------测试用例执行完毕-------
+INFO - 2024-08-17 22:00:22,075 - conftest.py:22 -[conftest:data_cleaning] - 正在清理测试数据...
+INFO - 2024-08-17 22:00:22,078 - connectMysql.py:81 -[connectMysql:delete] - 数据库数据删除成功
