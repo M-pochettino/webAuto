@@ -8,7 +8,7 @@ from util_tools.connectRedis import ConnectRedis
 
 class LoginPage(BasePage):
     # 定义登录页面的URL路径
-    url = '/auth_login'
+    url = ''
 
     # 定义页面中用户名输入框的定位器，使用CSS选择器定位
     username_input = (By.CSS_SELECTOR, '.el-form-item__content .el-input__inner[type="text"]')
