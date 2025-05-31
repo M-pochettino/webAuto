@@ -1,6 +1,12 @@
 import allure
 import pytest
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.firefox.service import Service as FirefoxService
 
 from config.setting import browser_type, WAIT_TIME
 from pageObject.login_page.login_page import LoginPage
@@ -20,11 +26,11 @@ def log_outputs():
 
 # 初始化浏览器驱动程序的函数
 def init_driver():
-    # 定义一个映射，关联浏览器名称与其对应的 WebDriver 类
+    # 定义一个映射，关联浏览器名称与其对应的 WebDriver 类和服务
     browser_mapping = {
-        'Chrome': webdriver.Chrome,  # 谷歌浏览器的 WebDriver
-        'Edge': webdriver.Edge,  # Edge 浏览器的 WebDriver
-        'Firefox': webdriver.Firefox  # 火狐浏览器的 WebDriver
+        'Chrome': lambda: webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())),
+        'Edge': lambda: webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install())),
+        'Firefox': lambda: webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     }
     # 判断全局变量 browser_type 是否在映射中
     if browser_type.capitalize() in browser_mapping:
