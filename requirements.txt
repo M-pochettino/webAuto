@@ -14,3 +14,4 @@ requests~=2.32.3
 PyMySQL~=1.1.1
 allure-pytest~=2.13.5
 webdriver-manager~=4.0.0
+openpyxl~=3.1.2

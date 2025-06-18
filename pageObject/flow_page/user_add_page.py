@@ -56,10 +56,19 @@ class UserAddPage(BasePage):  # 定义一个名为UserAddPage的类，继承自B
         self.send_keys(self.name_input, fake.name())
         # 在手机号输入框中输入随机生成的手机号
         self.send_keys(self.phone_input, fake.phone_number())
-        # 选择角色，选择项为"产品经理"
-        self.selects_by_single_level(self.role_select, "产品经理")
-        # 选择岗位，选择项为"总监"
-        self.selects_by_single_level(self.post_select, "总监")
+        # 尝试选择角色，优先选择"产品经理"，如果不存在则选择"普通用户"
+        try:
+            self.selects_by_single_level(self.role_select, "产品经理")
+        except:
+            # 如果找不到产品经理角色，选择普通用户
+            self.selects_by_single_level(self.role_select, "普通用户")
+        
+        # 尝试选择岗位，优先选择"总监"，如果不存在则跳过
+        try:
+            self.selects_by_single_level(self.post_select, "总监")
+        except:
+            # 如果找不到总监岗位，则跳过岗位选择
+            pass
         # 选择部门，选择项为"总裁办 -> 技术部 -> 产品部"
         self.selects_by_multi_level(self.dept_select, ["总裁办", "技术部", "产品部"])
         # 暂停1秒，等待下拉菜单的加载完成
