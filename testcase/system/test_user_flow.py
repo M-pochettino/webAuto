@@ -2,11 +2,11 @@ from time import sleep
 
 import allure
 
-from pageObject.flow_page.user_add_page import UserAddPage
-from pageObject.flow_page.user_del_page import UserDelPage
-from pageObject.flow_page.user_edit_page import UserEditPage
-from pageObject.flow_page.user_import_page import UserImportPage
-from pageObject.flow_page.user_select_page import UserSelectPage
+from pageObject.system_page.user_add_page import UserAddPage
+from pageObject.system_page.user_del_page import UserDelPage
+from pageObject.system_page.user_edit_page import UserEditPage
+from pageObject.system_page.user_import_page import UserImportPage
+from pageObject.system_page.user_select_page import UserSelectPage
 from util_tools.basePage import BasePage
 
 

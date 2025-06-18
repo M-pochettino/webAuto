@@ -182,4 +182,11 @@ class PositionAddPage(BasePage):
             )
             return True
         except:
-            return False 
+            return False
+    
+    def position_add(self):
+        """岗位添加的主要方法 - 为了兼容测试用例的调用"""
+        # 添加导入数据需要的所有岗位：产品经理、普通员工、部门总监
+        self.add_product_manager_position()  # 产品经理
+        self.add_general_position()         # 普通员工
+        self.add_supervisor_position()      # 部门总监 

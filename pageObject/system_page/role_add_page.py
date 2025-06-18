@@ -346,6 +346,15 @@ class RoleAddPage(BasePage):
             role_desc="总监角色，负责部门管理",
             data_authority="全部"
         )
+    
+    def add_general_user_role(self):
+        """添加普通用户角色"""
+        self.add_role(
+            role_name="普通用户",
+            role_code="GENERAL_USER", 
+            role_desc="普通用户角色，基础权限",
+            data_authority="本人"
+        )
         
     def check_role_exists(self, role_name):
         """检查角色是否已存在 - 简化版本，如果找不到就返回False"""
@@ -379,4 +388,11 @@ class RoleAddPage(BasePage):
             )
             return True
         except:
-            return False 
+            return False
+    
+    def role_add(self):
+        """角色添加的主要方法 - 为了兼容测试用例的调用"""
+        # 添加导入数据需要的所有角色：部门总监、产品经理、普通用户
+        self.add_supervisor_role()        # 部门总监
+        self.add_product_manager_role()   # 产品经理
+        self.add_general_user_role()      # 普通用户 
