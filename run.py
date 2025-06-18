@@ -7,6 +7,8 @@ import pytest
 if __name__ == '__main__':
     # 调用pytest的main函数，启动pytest测试
     pytest.main()
+    # 确保报告目录存在
+    os.makedirs('./report/temp', exist_ok=True)
     # 将环境配置文件复制到报告目录
     shutil.copy('./environment.xml', './report/temp')
     # 使用系统命令启动Allure报告服务，显示测试报告
